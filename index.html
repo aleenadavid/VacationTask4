@@ -1,0 +1,390 @@
+<html>
+    <head>
+        <title>Veterinarian</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">   
+        <style>
+
+            .odd{
+                height: 1000px;
+                width: 100%;
+                font-family:sans-serif;
+                color: white;
+                background-color: rgb(255, 196, 0);
+                text-align: center;
+            }
+
+            .even{
+                height: 1000px;
+                width: 100%;
+                font-family:sans-serif;
+                font-weight: bold;                
+                background-color: white;
+                text-align: center;
+            }
+            .icon {
+                background: rgb(255, 196, 0);
+                height: 40px;
+                width: 40px;
+                border-radius: 25px;
+                border: 1px solid rgb(255, 196, 0);
+            }
+            .play{
+                
+                width: 60px;
+                height: 60px;
+                z-index: 3;
+                display: flex;
+                position: absolute;
+                margin-top: 22%;
+                background-repeat: no-repeat;
+                background-color: white;
+                border-radius: 50%;
+                justify-content: center;
+                border: 15px solid white;
+                padding-left: 5px;
+            }            
+            .box{
+                background-color: rgb(255, 196, 0);
+                width: 250px;
+                height: 250px;
+                z-index: 0;
+                display: flex;
+                position: absolute;
+                margin-top: 25%;margin-left: 20%;
+                
+            }
+            ::placeholder {
+            color: white;            
+            } 
+        </style> 
+    </head>
+    <body style="background-color: rgb(255, 196, 0)">
+        <!--Section 1 -->
+        <div >
+            <nav class="navbar" style="background-color: rgb(233, 169, 7);">
+                <div class="container">
+                    <a class="navbar-brand " href="#">
+                        <img src="task-4-icons/1.png">
+                    </a>
+                    <a class="nav-item" style="color: white; font-family: sans-serif;" href="#">Home</a>
+                    <a class="nav-item" style="color: white; font-family: sans-serif;" href="#">About</a>
+                    <a class="nav-item" style="color: white; font-family: sans-serif;" href="#">Service</a>
+                    <a class="nav-item" style="color: white; font-family: sans-serif;" href="#">Contact</a>
+
+                    <form class="form-inline" >
+                        <input type="text" placeholder="Search..." style="background-color: rgb(255, 196, 0); border-width: 0px;height: 30px; padding-left: 5%; ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="30" fill="white" class="bi bi-search" viewBox="0 0 16 16" style="background-color:rgb(1, 187, 147); padding:8px;position: absolute; margin-left: 10%;">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                          </svg>
+                    </form>
+                </div>
+            </nav>
+        </div>
+        <div style="height: 800px;">
+            <div style="width: 50%;float: left;background-color: rgb(255, 196, 0);">
+                <div class="container" style="display: flex; justify-content: center;">
+                    <div class="jumbotron" style="background-color: rgb(255, 196, 0);font-family:sans-serif ; padding-left: 30%;padding-top: 30%; color: white;">
+                     
+                    <h1 class="display-4"><b>
+                        First I wanted to be a veterinarian
+                    </b></h1>
+                    <p>
+                        Lorem Ipsum available but the majority have suffered alteration in some form, by injected humour randomised words.
+                    </p>
+                    <button type="button" class="btn btn-primary" style=" padding-inline: 20px;padding-block: 10px;font-family:sans-serif ;font-size: smaller;background-color: rgb(1, 187, 147);border-color: rgb(1, 187, 147);border-width: 2px;">Contact Us</button>
+                    <button type="button" class="btn btn-outline-light" style="margin: 15px; border-width: 2px;padding-inline: 20px;padding-block: 10px;font-family:sans-serif ;font-size: smaller;"><b>Our Service</b></button>
+                                     
+                    </div>
+                </div>                  
+            </div>
+            <div style="background-color: rgb(255, 196, 0);display:flex; width: 50%;float: right;justify-content: center;padding-top: 5%;">
+                <img src="task-4-icons/2.png" >        
+            </div>        
+        </div>
+
+        <!-- Section 2 -->
+        <div class="even" style="text-align: left;">
+            <div style="width: 50%;float: left;background-color: inherit;">
+                <div class="container" style="display: flex; justify-content: center;">
+                    <div class="jumbotron" style="background-color: inherit; padding-left: 30%;padding-top: 30%; ">
+                    
+                    <h1 class="display-4"><b>
+                        As a veterinarian and lover of animals
+                    </b></h1>
+                    <p>
+                        Lorem Ipsum available but the majority have suffered alteration in some form, by injected humour randomised words.
+                    </p>
+                    <button type="button" class="btn btn-primary" style=" padding-inline: 20px;padding-block: 10px;font-family:sans-serif ;font-size: smaller;background-color: rgb(255, 196, 0);border-color: rgb(255, 196, 0);border-width: 2px;">Our Service</button>
+                                                    
+                    </div>
+                </div>                  
+            </div>
+            <div style="background-color: inherit;display:flex; width: 50%;float: right;justify-content: center;padding-top: 5%;height: 1000px;">
+                <video poster="task-4-icons/3.png" width="500px" height="800px" style="z-index: 2;">
+                    <source src="">
+                </video> 
+                <div class="play">
+                    <img src="task-4-icons/Icon-5.png" >
+                </div>    
+                <div class="box"></div>
+                
+            </div>
+        </div>
+
+        <!-- Section 3 -->
+        <div class="odd">
+            <div class="container" style="align-items: center;">
+                <div class="jumbotron" style="background-color: inherit;">
+                    <h1>Title Here</h1><br><br>
+                
+                    Lorem Ipsum available but the majority have suffered alteration in some form.
+                </div>         
+                <div class="row">
+                    <div class="col col-md-4">
+                        <img src="task-4-icons/4.png" >
+                        <br><br><h3>Veterinarian</h3><br>
+                        Lorem Ipsum available but the majority have suffered alteration in some form.
+                    </div>
+                    <div class="col col-md-4">
+                        <img src="task-4-icons/5.png" >
+                        <br><br><h3>Vaccination Care</h3><br>
+                        Lorem Ipsum available but the majority have suffered alteration in some form.
+                    </div>
+                    <div class="col col-md-4">
+                        <img src="task-4-icons/6.png" >
+                        <br><br><h3>Dental Care</h3><br>
+                        Lorem Ipsum available but the majority have suffered alteration in some form.
+                    </div>
+                </div>
+            </div>
+                     
+        </div>
+
+        <!-- Section 4 -->
+        <div class="even" style="text-align: right;">
+            <div style="background-color: inherit;display:flex; width: 50%;float: left;justify-content: center;padding-top: 5%;height: 1000px;">
+                <video poster="task-4-icons/7.png" width="500px" height="800px" style="z-index: 2;>
+                    <source src="">
+                </video>   
+                <div class="play" >
+                    <img src="task-4-icons/Icon-5.png" >
+                </div>    
+                <div class="box"></div>     
+            </div>
+            <div style="width: 50%;float: right;">
+                <div class="container" style="display: flex; justify-content: center;">
+                    <div class="jumbotron" style="background-color: inherit;padding-right: 30%;padding-top: 30%;">
+                    
+                    <h1 class="display-4"><b>
+                        As a veterinarian and lover of animals
+                    </b></h1>
+                    <p>
+                        Lorem Ipsum available but the majority have suffered alteration in some form, by injected humour randomised words.
+                    </p>
+                    <button type="button" class="btn btn-primary" style=" padding-inline: 20px;padding-block: 10px;font-family:sans-serif ;font-size: smaller;background-color: rgb(255, 196, 0);border-color: rgb(255, 196, 0);border-width: 2px;">Our Service</button>
+                                                    
+                    </div>
+                </div>                  
+            </div>
+            
+        </div>
+
+
+        <!-- Section 5 -->
+        <div class="odd">
+            <div class="container" style="align-items: center;">
+                <div class="jumbotron" style="background-color: inherit;">
+                    <h1>Title Here</h1><br><br>
+                    Lorem Ipsum available but the majority have suffered alteration in some form.
+                </div>         
+                <div class="row">
+                    <div class="col col-md-4">
+                        <img src="task-4-icons/4.png" >
+                        <br><br><h3><strike>$50</strike> $30</h3>
+                        <br><button type="button" class="btn btn-primary" style="width: 150px;font-family:sans-serif ;background-color: rgb(1, 187, 147);border-color: rgb(1, 187, 147);border-radius: 25px;">Buy Now</button>
+                    </div>
+                    <div class="col col-md-4">
+                        <img src="task-4-icons/5.png" >
+                        <br><br><h3><strike>$40</strike> $25</h3>
+                        <br><button type="button" class="btn btn-primary" style="width: 150px;font-family:sans-serif ;background-color: rgb(1, 187, 147);border-color: rgb(1, 187, 147);border-radius: 25px;">Buy Now</button>
+                    </div>
+                    <div class="col col-md-4">
+                        <img src="task-4-icons/6.png" >
+                        <br><br><h3><strike>$45</strike> $20</h3>
+                        <br><button type="button" class="btn btn-primary" style="width: 150px;font-family:sans-serif ;background-color: rgb(1, 187, 147);border-color: rgb(1, 187, 147);border-radius: 25px;">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+                     
+        </div>
+
+       
+        <!-- Section 6 -->
+        <div class="even">
+            <div class="container" style="align-items: center;">
+                <div class="jumbotron" style="background-color: inherit;">
+                    <h1>The vetcare team</h1><br><br>
+                
+                    Lorem Ipsum available but the majority have suffered alteration in some form.
+                </div>         
+                <div class="row">
+                    <div class="col col-md-4">
+                        <img src="task-4-icons/4.png" >
+                        <h3>Jennifer Mullen</h3>
+                       VETERINARY<br><br>
+                       <span style="width: 60%; display: flex; justify-content: space-between;margin-left: 20%;">
+                            <img class"icon" src="task-4-icons/Instagram.png">
+                            <img class"icon" src="task-4-icons/Facebook.png" >
+                            <img class"icon" src="task-4-icons/Twitter.png" >
+                            <img class"icon" src="task-4-icons/WhatsApp.png" >
+                        </span>
+                    </div>
+                    <div class="col col-md-4">
+                        <img src="task-4-icons/5.png" >
+                        <h3>Sheeren Collins</h3>
+                       ADMINISTRATION<br><br>
+                       <span style="width: 60%; display: flex; justify-content: space-between;margin-left: 20%;">
+                            <img class"icon" src="task-4-icons/Instagram.png">
+                            <img class"icon" src="task-4-icons/Facebook.png" >
+                            <img class"icon" src="task-4-icons/Twitter.png" >
+                            <img class"icon" src="task-4-icons/WhatsApp.png" >
+                        </span>
+                    </div>
+                    <div class="col col-md-4">
+                        <img src="task-4-icons/6.png" >
+                        <h3>Jennifer Mullen</h3>
+                       VETERINARY<br><br>
+                       <span style="width: 60%; display: flex; justify-content: space-between;margin-left: 20%;">
+                            <img class"icon" src="task-4-icons/Instagram.png">
+                            <img class"icon" src="task-4-icons/Facebook.png" >
+                            <img class"icon" src="task-4-icons/Twitter.png" >
+                            <img class"icon" src="task-4-icons/WhatsApp.png" >
+                        </span>
+                    </div>
+                </div>
+            </div>
+                     
+        </div>
+
+        <!-- Section 7 -->
+        <div style="background-size:cover; background-image:url(/task-4-icons/8.png) ;background-repeat: no-repeat; height: 400px;position:relative; justify-content: center;">
+            <div style="color: white;background-color: rgb(255, 196, 0);opacity: 0.7;height: 100%;width: 100%;display: flex; justify-content: space-around; align-items: center;">
+                <div class="row" style="width: 80%;">
+                    
+                    <div class="col col-md-4">
+                        <center>
+                        <img src="task-4-icons/Icon-2.png" >
+                        <br><br><br>
+                        <h3>+34793
+                            <br><b>Happy Clients</b>
+                        </h3>
+                        </center>
+                    </div>
+                    <div class="col col-md-4">
+                        <center>
+                        <img src="task-4-icons/Icon-1.png" >
+                        <br><br><br><h3>+45382
+                            <br><b>Departments</b>
+                        </h3>
+                        </center>
+                    </div>
+                    <div class="col col-md-4">
+                        <center>
+                        <img src="task-4-icons/Icon.png" >
+                        <br><br><br><h3>+54762
+                            <br><b>Vaccinations</b>
+                        </h3>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+
+        <!-- Section 8 -->
+        <div class="even">
+            <div class="container" >
+                <div class="jumbotron" style="background-color: inherit;">
+                    <h1>Recent Posts</h1><br><br>
+                    Lorem Ipsum available but the majority have suffered alteration in some form.
+                </div>         
+                <div class="row" style="text-align: left;">
+                    <div class="col col-md-4" >
+                        <img src="task-4-icons/4.png" width="100%" >
+                        <div style="border: 1px solid gray;padding: 2%;border-top: 0px;">
+                            As a veterinarian and lover of animals<br><br>
+                            <p style="color: teal;font-weight: normal;"> FEBRUARY 09,2020<br></p>
+                            <p style="font-weight: normal;"> Lorem Ipsum available but the majority have suffered alteration in some form.</p>
+                            <a href="#" style="color: teal;font-weight: normal;">Read More+</a>
+                        </div>
+                        
+                    </div>
+                    <div class="col col-md-4">
+                        <img src="task-4-icons/5.png" width="100%">
+                        <div style="border: 1px solid gray;padding: 2%;border-top: 0px;">
+                            As a veterinarian and lover of animals<br><br>
+                            <p style="color: teal;font-weight: normal;"> FEBRUARY 09,2020<br></p>
+                            <p style="font-weight: normal;"> Lorem Ipsum available but the majority have suffered alteration in some form.</p>
+                            <a href="#" style="color: teal;font-weight: normal;">Read More+</a>
+                        </div>
+                    </div>
+                    <div class="col col-md-4">
+                        <img src="task-4-icons/6.png" width="100%">
+                        <div style="border: 1px solid gray;padding: 2%;border-top: 0px;">
+                            As a veterinarian and lover of animals<br><br>
+                            <p style="color: teal;font-weight: normal;"> FEBRUARY 09,2020<br></p>
+                            <p style="font-weight: normal;"> Lorem Ipsum available but the majority have suffered alteration in some form.</p>
+                            <a href="#" style="color: teal;font-weight: normal;">Read More+</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                     
+        </div>
+
+        <!--Section 9-->
+        <div style="height: 400px;width: 100%; background-color: rgb(44, 53, 53);color: white;">
+            <div class="container" style="padding:5%;">
+                <div class="row">
+                    <div class="col col-md-4">
+                        <h3>About</h3>
+                        <br>History
+                        <br>Our Team
+                        <br>Brand Guidelines
+                        <br>Terms & Condition
+                        <br>Privacy Policy
+                    </div>
+                    <div class="col col-md-4" >
+                        <h3>Services</h3>
+                        <br>How to Order
+                        <br>Our Product
+                        <br>Order Status
+                        <br>Promo
+                        <br>Payment Method
+                    </div>
+                    <div class="col col-md-4" style="text-align: right;">
+                        <h3>Title Here</h3>
+                        <br>Lorem ipsum available, but the majority<br><br>
+                            <div style="height:30px;width:70%;background-color:  rgb(255, 196, 0);margin-right: 0;margin-left: 30%;">
+                             <img src="task-4-icons/icon-4.png" style="background-color: lightseagreen;padding: 3%;height: 30px; width: 30px;">
+                            </div>
+                       <br>
+                       <span>
+                           <img src="task-4-icons/Instagram.png" >
+                            <img src="task-4-icons/Facebook.png" >
+                            <img src="task-4-icons/Twitter.png" >
+                            <img src="task-4-icons/WhatsApp.png" >
+                        </span>
+                    </div>
+                </div>    
+            </div>
+        </div>
+        
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    </body>
+    
+</html>
